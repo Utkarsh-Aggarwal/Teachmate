@@ -1,9 +1,3 @@
-Here is your **complete, production-ready README.md** in clean **Markdown format**, with your uploaded screenshots already embedded using the given local file paths.
-
-You can **copy–paste directly** into your `README.md` file.
-
----
-
 # TeachMate
 
 TeachMate is a real-time language learning social platform where users can connect, add friends, chat instantly, and start WebRTC-powered video calls. It helps learners practice languages with real people worldwide through seamless communication tools and a clean interface.
