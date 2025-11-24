@@ -53,26 +53,29 @@ Users complete a profile with:
 
 ### 🔐 Login Page
 
-![Login](sandbox:/mnt/data/Screenshot%202024-07-25%20013943.png)
+<img width="1242" height="731" alt="Screenshot 2025-11-24 201623" src="https://github.com/user-attachments/assets/86e41783-bafa-4a2a-8c01-0fca33a015b0" />
+
 
 ---
 
 ### 🧑‍🎓 Profile Onboarding
 
-![Profile](sandbox:/mnt/data/Screenshot%202025-11-24%20201623.png)
+<img width="687" height="892" alt="Screenshot 2025-11-24 201902" src="https://github.com/user-attachments/assets/4a4dfd0f-92b5-4d2f-aabe-33f8245d9115" />
+
 
 ---
 
 ### 🤝 Friends & New Learners
 
-![Friends](sandbox:/mnt/data/Screenshot%202025-11-24%20201902.png)
-![Meet New Learners](sandbox:/mnt/data/Screenshot%202025-11-24%20201922.png)
+<img width="773" height="860" alt="Screenshot 2025-11-24 201922" src="https://github.com/user-attachments/assets/e316d443-4f3b-4907-bfda-2d3e8b8256c4" />
+
 
 ---
 
 ### 💬 Chat + Video Call
 
-![Chat](sandbox:/mnt/data/Screenshot%202025-11-24%20202139.png)
+<img width="935" height="936" alt="Screenshot 2025-11-24 202139" src="https://github.com/user-attachments/assets/494e63f3-9c06-468d-8ae3-d3b4d3e144c2" />
+
 
 ---
 
