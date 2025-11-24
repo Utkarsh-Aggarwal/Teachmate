@@ -60,21 +60,21 @@ Users complete a profile with:
 
 ### 🧑‍🎓 Profile Onboarding
 
-<img width="600" height="350" alt="Screenshot 2025-11-24 201902" src="https://github.com/user-attachments/assets/4a4dfd0f-92b5-4d2f-aabe-33f8245d9115" />
+<img width="600" height="450" alt="Screenshot 2025-11-24 201902" src="https://github.com/user-attachments/assets/4a4dfd0f-92b5-4d2f-aabe-33f8245d9115" />
 
 
 ---
 
 ### 🤝 Friends & New Learners
 
-<img width="600" height="350" alt="Screenshot 2025-11-24 201922" src="https://github.com/user-attachments/assets/e316d443-4f3b-4907-bfda-2d3e8b8256c4" />
+<img width="600" height="450" alt="Screenshot 2025-11-24 201922" src="https://github.com/user-attachments/assets/e316d443-4f3b-4907-bfda-2d3e8b8256c4" />
 
 
 ---
 
 ### 💬 Chat + Video Call
 
-<img width="600" height="350" alt="Screenshot 2025-11-24 202139" src="https://github.com/user-attachments/assets/494e63f3-9c06-468d-8ae3-d3b4d3e144c2" />
+<img width="600" height="450" alt="Screenshot 2025-11-24 202139" src="https://github.com/user-attachments/assets/494e63f3-9c06-468d-8ae3-d3b4d3e144c2" />
 
 
 ---
