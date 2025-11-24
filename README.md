@@ -53,7 +53,7 @@ Users complete a profile with:
 
 ### 🔐 Login Page
 
-<img width="1242" height="731" alt="Screenshot 2025-11-24 201623" src="https://github.com/user-attachments/assets/86e41783-bafa-4a2a-8c01-0fca33a015b0" />
+<img width="600" height="350" alt="Screenshot 2025-11-24 201623" src="https://github.com/user-attachments/assets/86e41783-bafa-4a2a-8c01-0fca33a015b0" />
 
 
 ---
