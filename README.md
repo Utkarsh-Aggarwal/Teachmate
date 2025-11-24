@@ -1,184 +1,197 @@
-🎓 TeachMate
+Here is your **complete, production-ready README.md** in clean **Markdown format**, with your uploaded screenshots already embedded using the given local file paths.
 
-Real-time Language Learning Social Platform
+You can **copy–paste directly** into your `README.md` file.
 
-⭐ About the Project
+---
 
-TeachMate is a real-time platform where users can connect, chat, and video call to learn languages together. It blends social networking features with WebRTC-based video calling, enabling a modern and interactive learning experience.
+# TeachMate
 
-Users can:
+TeachMate is a real-time language learning social platform where users can connect, add friends, chat instantly, and start WebRTC-powered video calls. It helps learners practice languages with real people worldwide through seamless communication tools and a clean interface.
 
-Create and manage accounts
+---
 
-Add or accept friends
+## 🚀 Features
 
-Chat instantly
+### ✅ Authentication
 
-Make high-quality P2P video calls
+Secure login & signup with JWT-based authentication.
 
-See online/offline friend status
+### ✅ User Profiles & Onboarding
 
-Built using React, Node.js, MongoDB, WebSockets, Redux, and WebRTC, TeachMate is scalable, fast, and ideal for real-time apps.
+Users complete a profile with:
 
-🚀 Features
-🔐 Authentication
+* Full name
+* Bio
+* Native language
+* Learning language
+* Location
+* Auto-generated avatar
 
-Secure login & signup using JWT
+### ✅ Add Friends & Connect
 
-Protected routes
+* Discover new learners based on language preferences
+* Send/accept friend requests
+* Build your learning network
 
-Persistent sessions
+### ✅ Real-Time Chat (WebSockets)
 
-👥 Friend System
+* Instant messaging
+* Online/offline status
+* Message delivery in real time
 
-Search for users
+### ✅ WebRTC Video Calling
 
-Send/accept friend requests
+* Peer-to-peer video call room creation
+* Call invites sent through chat
+* Smooth low-latency video sessions
 
-Maintain your learning network
+### ✅ Modern Tech Stack
 
-💬 Real-Time Messaging
+* **Frontend:** React, Redux Toolkit
+* **Backend:** Node.js, Express
+* **Database:** MongoDB
+* **Real-time:** Socket.IO
+* **Video:** WebRTC
 
-Delivered instantly through WebSockets
+---
 
-Read/delivered indicators
+## 📸 Screenshots
 
-Smooth chat UI
+### 🔐 Login Page
 
-📹 Video Calling (WebRTC)
+![Login](sandbox:/mnt/data/Screenshot%202024-07-25%20013943.png)
 
-High-quality peer-to-peer calls
+---
 
-Integrated WebSocket signaling
+### 🧑‍🎓 Profile Onboarding
 
-No third-party dependencies
+![Profile](sandbox:/mnt/data/Screenshot%202025-11-24%20201623.png)
 
-🟢 Live Online Status
+---
 
-Real-time presence updates
+### 🤝 Friends & New Learners
 
-Shows friend availability instantly
+![Friends](sandbox:/mnt/data/Screenshot%202025-11-24%20201902.png)
+![Meet New Learners](sandbox:/mnt/data/Screenshot%202025-11-24%20201922.png)
 
-🗄️ Redux State Management
+---
 
-Global control over auth, chat, friends, calls
+### 💬 Chat + Video Call
 
-Predictable and scalable
+![Chat](sandbox:/mnt/data/Screenshot%202025-11-24%20202139.png)
 
-🛠 Tech Stack
-Frontend
+---
 
-React
+## 🛠️ Tech Stack
 
-Redux Toolkit
+| Category         | Technologies                                |
+| ---------------- | ------------------------------------------- |
+| Frontend         | React, Redux Toolkit, Tailwind / Custom CSS |
+| Backend          | Node.js, Express                            |
+| Real-time        | Socket.IO                                   |
+| Video Calling    | WebRTC                                      |
+| Database         | MongoDB, Mongoose                           |
+| Authentication   | JWT, bcrypt                                 |
+| State Management | Redux Toolkit                               |
+| Deployment       | (Add your deployment details if any)        |
 
-WebRTC
+---
 
-WebSocket client
+## 📦 Installation & Setup
 
-Tailwind / CSS
+### 1️⃣ Clone the repo
 
-Backend
-
-Node.js
-
-Express
-
-MongoDB + Mongoose
-
-WebSocket (Socket.io / ws)
-
-JWT Authentication
-
-📂 Folder Structure
-/client
-   ├── src
-   │   ├── components
-   │   ├── pages
-   │   ├── redux
-   │   ├── hooks
-   │   └── utils
-
-/server
-   ├── controllers
-   ├── models
-   ├── routes
-   ├── websocket
-   └── config
-
-🖼️ Screenshots
-
-(Replace these with real images)
-
-/assets/screenshot1.png - Login Page
-/assets/screenshot2.png - Chat Window
-/assets/screenshot3.png - Video Call Screen
-
-🎥 Demo GIFs
-
-(Add screen recordings here)
-
-/assets/demo-chat.gif
-/assets/demo-call.gif
-
-🔧 Installation & Setup
-1️⃣ Clone the repository
+```bash
 git clone https://github.com/your-username/teachmate.git
 cd teachmate
+```
 
-🖥️ Backend Setup
-cd server
+---
+
+## 🖥️ Backend Setup
+
+### Install dependencies:
+
+```bash
+cd backend
 npm install
+```
+
+### Create `.env` file:
+
+```env
+MONGO_URI=your_mongodb_connection
+JWT_SECRET=your_jwt_secret
+CLIENT_URL=http://localhost:5173
+```
+
+### Start backend:
+
+```bash
 npm start
+```
 
-Create .env inside /server
-MONGO_URI=
-JWT_SECRET=
-PORT=5000
+---
 
-💻 Frontend Setup
-cd client
+## 💻 Frontend Setup
+
+```bash
+cd frontend
 npm install
-npm start
+npm run dev
+```
 
-📡 How It Works
+---
 
-TeachMate relies on three core systems:
+## 🔌 WebRTC & WebSocket Notes
 
-JWT Authentication — protects the entire app
+* WebRTC uses peer-to-peer connections
+* Signaling (offer/answer exchange) handled via Socket.IO
+* Users receive call invites directly inside the chat
+* After both clients accept, the P2P video session starts
 
-WebSockets — handles messaging & presence
+---
 
-WebRTC — enables video call signaling (offer, answer, ICE)
+## 📁 Project Structure
 
-Simple data flow:
+```
+teachmate/
+│
+├── backend/
+│   ├── controllers/
+│   ├── models/
+│   ├── routes/
+│   └── server.js
+│
+├── frontend/
+│   ├── src/
+│   ├── components/
+│   ├── pages/
+│   └── App.jsx
+│
+└── README.md
+```
 
-User logs in → WebSocket connects → Friends sync →
-Chat messages appear instantly → Video calls established via WebRTC
+---
 
-🤝 Contributing
+## 🤝 Contribution
 
-Fork this repository
+Feel free to open issues, suggest features, or contribute through pull requests.
 
-Create a branch (feature/myFeature)
+---
 
-Commit your changes
+## ⭐ If you like this project…
 
-Open a pull request
+Give the repository a **star** ⭐ on GitHub.
+Your support motivates future improvements!
 
-📜 License
+---
 
-MIT License © 2025
+If you want, I can also generate:
 
-🟨 GitHub Tags (Topics)
-react
-nodejs
-mongodb
-websocket
-webrtc
-redux
-realtime-chat
-video-call
-language-learning
-mern
-social-app
+✅ GitHub Release Notes
+✅ A better project tagline
+✅ Tech stack badges
+✅ A demo GIF preview section
+
+Just tell me!
